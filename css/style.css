@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f7f7f7;
+}
+
+.navbar{
+    background:#d63384;
+    padding:15px;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    margin-right:20px;
+    font-weight:bold;
+}
+
+.navbar a:hover{
+    color:#ffd6eb;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px #ccc;
+}
+
+.btn{
+    background:#d63384;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:#b0266e;
+}
+
+.hero{
+    text-align:center;
+    padding:50px;
+}
+
+.hero h1{
+    color:#d63384;
+    margin-bottom:20px;
+}
+
+.service-grid{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.service-card{
+    flex:1;
+    min-width:220px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    border:1px solid #ddd;
+    border-radius:5px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th,
+table td{
+    border:1px solid #ddd;
+    padding:10px;
+}
+
+table th{
+    background:#d63384;
+    color:white;
+}
